@@ -1,0 +1,9 @@
+﻿.blank_row {
+    height:100px;
+    background-color:#ffffff;
+}
+.jumbotron{
+    height: auto;
+    color: white;
+    font-weight:bold;
+}

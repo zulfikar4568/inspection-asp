@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{B5C322A4-48BD-40BD-B548-4477AD49257D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WEB</RootNamespace>
+    <AssemblyName>WEB</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44312</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WEB.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WEB.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Additional-File\css\Border.css" />
+    <Content Include="Additional-File\css\breakdown.css" />
+    <Content Include="Additional-File\css\global.css" />
+    <Content Include="Additional-File\css\skidp04.css" />
+    <Content Include="Additional-File\css\Homepage.css" />
+    <Content Include="Additional-File\css\Style.css" />
+    <Content Include="Additional-File\img\AreaProcess.jpg" />
+    <Content Include="Additional-File\img\Breakdown.jpg" />
+    <Content Include="Additional-File\img\ForAllSkid.jpeg" />
+    <Content Include="Additional-File\img\Loreal.PNG" />
+    <Content Include="Additional-File\img\Me.jpg" />
+    <Content Include="Additional-File\img\Process.jpg" />
+    <Content Include="Additional-File\img\Process2.jpg" />
+    <Content Include="Additional-File\img\SKIDP00.jpg" />
+    <Content Include="Additional-File\img\SKIDP01.jpg" />
+    <Content Include="Additional-File\img\SKIDP02.jpg" />
+    <Content Include="Additional-File\img\SKIDP04.jpg" />
+    <Content Include="Additional-File\img\SKIDP14.jpg" />
+    <Content Include="Additional-File\img\SKIDP29_1.jpg" />
+    <Content Include="Additional-File\img\SKIDP31.jpg" />
+    <Content Include="Additional-File\img\SKIDP32.jpg" />
+    <Content Include="Additional-File\img\SKIDP33.jpg" />
+    <Content Include="Additional-File\img\SKIDP34.jpg" />
+    <Content Include="Additional-File\img\Washing.jpg" />
+    <Content Include="Additional-File\img\WB.jpg" />
+    <Content Include="Additional-File\img\WB2.jpg" />
+    <Content Include="Additional-File\img\WB3.jpg" />
+    <Content Include="Additional-File\img\WB4.jpg" />
+    <Content Include="Additional-File\img\WB5.jpg" />
+    <Content Include="Additional-File\js\jquery-3.4.1.js" />
+    <Content Include="Additional-File\js\jquery-3.4.1.slim.min.js" />
+    <Content Include="Additional-File\js\popper.min.js" />
+    <Content Include="Bootstrap4\css\bootstrap-grid.css" />
+    <Content Include="Bootstrap4\css\bootstrap-grid.min.css" />
+    <Content Include="Bootstrap4\css\bootstrap-reboot.css" />
+    <Content Include="Bootstrap4\css\bootstrap-reboot.min.css" />
+    <Content Include="Bootstrap4\css\bootstrap.css" />
+    <Content Include="Bootstrap4\css\bootstrap.min.css" />
+    <Content Include="Bootstrap4\js\bootstrap.bundle.js" />
+    <Content Include="Bootstrap4\js\bootstrap.bundle.min.js" />
+    <Content Include="Bootstrap4\js\bootstrap.js" />
+    <Content Include="Bootstrap4\js\bootstrap.min.js" />
+    <Content Include="Bootstrap_Date_Picker\css\bootstrap-datepicker.css" />
+    <Content Include="Bootstrap_Date_Picker\css\bootstrap-datepicker.min.css" />
+    <Content Include="Bootstrap_Date_Picker\css\bootstrap-datepicker.standalone.css" />
+    <Content Include="Bootstrap_Date_Picker\css\bootstrap-datepicker.standalone.min.css" />
+    <Content Include="Bootstrap_Date_Picker\css\bootstrap-datepicker3.css" />
+    <Content Include="Bootstrap_Date_Picker\css\bootstrap-datepicker3.min.css" />
+    <Content Include="Bootstrap_Date_Picker\css\bootstrap-datepicker3.standalone.css" />
+    <Content Include="Bootstrap_Date_Picker\css\bootstrap-datepicker3.standalone.min.css" />
+    <Content Include="Bootstrap_Date_Picker\js\bootstrap-datepicker.js" />
+    <Content Include="Bootstrap_Date_Picker\js\bootstrap-datepicker.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker-en-CA.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.ar-tn.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.ar.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.az.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.bg.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.bm.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.bn.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.br.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.bs.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.ca.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.cs.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.cy.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.da.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.de.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.el.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.en-AU.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.en-CA.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.en-GB.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.en-IE.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.en-NZ.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.en-ZA.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.eo.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.es.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.et.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.eu.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.fa.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.fi.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.fo.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.fr-CH.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.fr.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.gl.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.he.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.hi.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.hr.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.hu.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.hy.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.id.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.is.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.it-CH.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.it.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.ja.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.ka.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.kh.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.kk.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.km.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.ko.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.kr.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.lt.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.lv.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.me.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.mk.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.mn.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.ms.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.nl-BE.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.nl.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.no.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.oc.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.pl.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.pt-BR.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.pt.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.ro.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.rs-latin.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.rs.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.ru.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.si.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.sk.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.sl.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.sq.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.sr-latin.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.sr.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.sv.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.sw.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.ta.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.tg.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.th.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.tk.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.tr.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.uk.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.uz-cyrl.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.uz-latn.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.vi.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.zh-CN.min.js" />
+    <Content Include="Bootstrap_Date_Picker\locales\bootstrap-datepicker.zh-TW.min.js" />
+    <Content Include="Chart\js\Chart.min.js" />
+    <Content Include="Breakdown\Chart_Breakdown.aspx" />
+    <Content Include="Datatable\css\bootstrap.css" />
+    <Content Include="Datatable\css\bootstrap.min.css" />
+    <Content Include="Datatable\css\dataTables.bootstrap4.min.css" />
+    <Content Include="Datatable\css\jquery.dataTables.min.css" />
+    <Content Include="Datatable\css\responsive.dataTables.min.css" />
+    <Content Include="Datatable\js\dataTables.bootstrap4.min.js" />
+    <Content Include="Datatable\js\dataTables.responsive.min.js" />
+    <Content Include="Datatable\js\jquery-3.3.1.js" />
+    <Content Include="Datatable\js\jquery.dataTables.min.js" />
+    <Content Include="Breakdown\Historical_Breakdown.aspx" />
+    <Content Include="HomePage_Developer\Home_Page.aspx" />
+    <Content Include="HomePage_Developer\Home_Page_All.aspx" />
+    <Content Include="InspectionCheck\Washing.aspx" />
+    <Content Include="InspectionCheck\WB2.aspx" />
+    <Content Include="InspectionCheck\WB3.aspx" />
+    <Content Include="InspectionCheck\WB4.aspx" />
+    <Content Include="InspectionCheck\WB5.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="HomePage_Developer\Me.aspx" />
+    <Content Include="Breakdown\New_Breakdown.aspx" />
+    <Content Include="Resource\1263914.png" />
+    <Content Include="Resource\144-1440352_credit-history-location-icon-png-blue-clipart.png" />
+    <Content Include="Resource\84380.png" />
+    <Content Include="Resource\All.png" />
+    <Content Include="Resource\Back Baru.png" />
+    <Content Include="Resource\Back.png" />
+    <Content Include="Resource\Back1.png" />
+    <Content Include="Resource\Breakdown.png" />
+    <Content Include="Resource\Checklist.png" />
+    <Content Include="Resource\chimney-power-station-icon-vector-cartoon-chimney-power-plant-petrochemical-plant.jpg" />
+    <Content Include="Resource\cogwheels.png" />
+    <Content Include="Resource\cpu.png" />
+    <Content Include="Resource\cross.png" />
+    <Content Include="Resource\delete-1432400-1211078.png" />
+    <Content Include="Resource\edit-512.png" />
+    <Content Include="Resource\factory.png" />
+    <Content Include="Resource\icon-grafik-417x330.png" />
+    <Content Include="Resource\icon.png" />
+    <Content Include="Resource\icons8-add-96.png" />
+    <Content Include="Resource\icons8-checklist-64.png" />
+    <Content Include="Resource\icons8-edit-128.png" />
+    <Content Include="Resource\icons8-edit-256.png" />
+    <Content Include="Resource\icons8-home-150.png" />
+    <Content Include="Resource\logout.png" />
+    <Content Include="Resource\Loreal.png" />
+    <Content Include="Resource\magnifier.png" />
+    <Content Include="Resource\magnifying-glass %281%29.png" />
+    <Content Include="Resource\magnifying-glass.png" />
+    <Content Include="Resource\management-process-3-919283.png" />
+    <Content Include="Resource\multi-tab.png" />
+    <Content Include="Resource\order-history-icon-export-csv-blue-icon-11553511776dpkqdrksk8.png" />
+    <Content Include="Resource\padlock.png" />
+    <Content Include="Resource\Petrochemical-icon-yellow250x250.png" />
+    <Content Include="Resource\Picture1.png" />
+    <Content Include="Resource\PM.png" />
+    <Content Include="Resource\PM2.png" />
+    <Content Include="Resource\PM3.png" />
+    <Content Include="Resource\Polman.png" />
+    <Content Include="Resource\process-systems.png" />
+    <Content Include="Resource\process.png" />
+    <Content Include="Resource\refresh-button.png" />
+    <Content Include="Resource\user %281%29.png" />
+    <Content Include="Resource\user.png" />
+    <Content Include="Resource\Working-Schedule.png" />
+    <Content Include="Resource\wrong-password.png" />
+    <Content Include="InspectionCheck\SKIDP00.aspx" />
+    <Content Include="InspectionCheck\SKIDP01.aspx" />
+    <Content Include="InspectionCheck\SKIDP02.aspx" />
+    <Content Include="InspectionCheck\SKIDP04.aspx" />
+    <Content Include="InspectionCheck\SKIDP14.aspx" />
+    <Content Include="InspectionCheck\SKIDP29.aspx" />
+    <Content Include="InspectionCheck\SKIDP31.aspx" />
+    <Content Include="InspectionCheck\SKIDP32.aspx" />
+    <Content Include="InspectionCheck\SKIDP33.aspx" />
+    <Content Include="InspectionCheck\SKIDP34.aspx" />
+    <Content Include="InspectionCheck\WB1.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Breakdown\Chart_Breakdown.aspx.designer.vb">
+      <DependentUpon>Chart_Breakdown.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Breakdown\Chart_Breakdown.aspx.vb">
+      <DependentUpon>Chart_Breakdown.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="GlobalVariable.vb" />
+    <Compile Include="Breakdown\Historical_Breakdown.aspx.designer.vb">
+      <DependentUpon>Historical_Breakdown.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Breakdown\Historical_Breakdown.aspx.vb">
+      <DependentUpon>Historical_Breakdown.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="HomePage_Developer\Home_Page.aspx.designer.vb">
+      <DependentUpon>Home_Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage_Developer\Home_Page.aspx.vb">
+      <DependentUpon>Home_Page.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="HomePage_Developer\Home_Page_All.aspx.designer.vb">
+      <DependentUpon>Home_Page_All.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage_Developer\Home_Page_All.aspx.vb">
+      <DependentUpon>Home_Page_All.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InspectionCheck\Washing.aspx.designer.vb">
+      <DependentUpon>Washing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionCheck\Washing.aspx.vb">
+      <DependentUpon>Washing.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InspectionCheck\WB2.aspx.designer.vb">
+      <DependentUpon>WB2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionCheck\WB2.aspx.vb">
+      <DependentUpon>WB2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InspectionCheck\WB3.aspx.designer.vb">
+      <DependentUpon>WB3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionCheck\WB3.aspx.vb">
+      <DependentUpon>WB3.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InspectionCheck\WB4.aspx.designer.vb">
+      <DependentUpon>WB4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionCheck\WB4.aspx.vb">
+      <DependentUpon>WB4.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InspectionCheck\WB5.aspx.designer.vb">
+      <DependentUpon>WB5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionCheck\WB5.aspx.vb">
+      <DependentUpon>WB5.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="HomePage_Developer\Me.aspx.designer.vb">
+      <DependentUpon>Me.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage_Developer\Me.aspx.vb">
+      <DependentUpon>Me.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Breakdown\New_Breakdown.aspx.designer.vb">
+      <DependentUpon>New_Breakdown.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Breakdown\New_Breakdown.aspx.vb">
+      <DependentUpon>New_Breakdown.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP00.aspx.designer.vb">
+      <DependentUpon>SKIDP00.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP00.aspx.vb">
+      <DependentUpon>SKIDP00.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP01.aspx.designer.vb">
+      <DependentUpon>SKIDP01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP01.aspx.vb">
+      <DependentUpon>SKIDP01.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP02.aspx.designer.vb">
+      <DependentUpon>SKIDP02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP02.aspx.vb">
+      <DependentUpon>SKIDP02.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP04.aspx.designer.vb">
+      <DependentUpon>SKIDP04.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP04.aspx.vb">
+      <DependentUpon>SKIDP04.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP14.aspx.designer.vb">
+      <DependentUpon>SKIDP14.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP14.aspx.vb">
+      <DependentUpon>SKIDP14.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP29.aspx.designer.vb">
+      <DependentUpon>SKIDP29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP29.aspx.vb">
+      <DependentUpon>SKIDP29.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP31.aspx.designer.vb">
+      <DependentUpon>SKIDP31.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP31.aspx.vb">
+      <DependentUpon>SKIDP31.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP32.aspx.designer.vb">
+      <DependentUpon>SKIDP32.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP32.aspx.vb">
+      <DependentUpon>SKIDP32.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP33.aspx.designer.vb">
+      <DependentUpon>SKIDP33.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP33.aspx.vb">
+      <DependentUpon>SKIDP33.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP34.aspx.designer.vb">
+      <DependentUpon>SKIDP34.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionCheck\SKIDP34.aspx.vb">
+      <DependentUpon>SKIDP34.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SQLControl.vb" />
+    <Compile Include="InspectionCheck\WB1.aspx.designer.vb">
+      <DependentUpon>WB1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionCheck\WB1.aspx.vb">
+      <DependentUpon>WB1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Bootstrap4\css\bootstrap-grid.css.map" />
+    <Content Include="Bootstrap4\css\bootstrap-grid.min.css.map" />
+    <Content Include="Bootstrap4\css\bootstrap-reboot.css.map" />
+    <Content Include="Bootstrap4\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Bootstrap4\css\bootstrap.css.map" />
+    <Content Include="Bootstrap4\css\bootstrap.min.css.map" />
+    <Content Include="Bootstrap4\js\bootstrap.bundle.js.map" />
+    <Content Include="Bootstrap4\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Bootstrap4\js\bootstrap.js.map" />
+    <Content Include="Bootstrap4\js\bootstrap.min.js.map" />
+    <Content Include="Bootstrap_Date_Picker\css\bootstrap-datepicker.css.map" />
+    <Content Include="Bootstrap_Date_Picker\css\bootstrap-datepicker.standalone.css.map" />
+    <Content Include="Bootstrap_Date_Picker\css\bootstrap-datepicker3.css.map" />
+    <Content Include="Bootstrap_Date_Picker\css\bootstrap-datepicker3.standalone.css.map" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Chart\css\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52909</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44312/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
