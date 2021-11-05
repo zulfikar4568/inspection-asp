@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\MYAPPS</_PublishTargetUrl>
+    <History>True|2021-11-05T14:08:53.0918339Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Additional-File/css/Border.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/css/breakdown.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/css/global.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/css/Homepage.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/css/skidp04.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/css/Style.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/AreaProcess.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/Breakdown.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/ForAllSkid.jpeg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/Loreal.PNG">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/Me.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/Process.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/Process2.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/SKIDP00.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/SKIDP01.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/SKIDP02.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/SKIDP04.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/SKIDP14.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/SKIDP29_1.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/SKIDP31.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/SKIDP32.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/SKIDP33.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/SKIDP34.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/Washing.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/WB.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/WB2.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/WB3.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/WB4.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/img/WB5.jpg">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/js/jquery-3.4.1.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/js/jquery-3.4.1.slim.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Additional-File/js/popper.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>11/05/2021 19:32:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>11/05/2021 19:32:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>11/05/2021 19:32:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>11/05/2021 19:32:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>11/05/2021 19:32:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>11/05/2021 19:32:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>11/05/2021 19:32:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>11/05/2021 19:32:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>11/05/2021 19:32:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>11/05/2021 19:32:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>11/05/2021 19:32:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>11/05/2021 19:32:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2021 19:32:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>11/05/2021 19:32:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>11/05/2021 19:32:03</publishTime>
+    </File>
+    <File Include="bin/WEB.dll">
+      <publishTime>11/05/2021 21:08:49</publishTime>
+    </File>
+    <File Include="bin/WEB.pdb">
+      <publishTime>11/05/2021 21:08:49</publishTime>
+    </File>
+    <File Include="bin/WEB.xml">
+      <publishTime>11/05/2021 21:08:49</publishTime>
+    </File>
+    <File Include="Bootstrap4/css/bootstrap-grid.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/css/bootstrap-grid.css.map">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/css/bootstrap-grid.min.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/css/bootstrap-grid.min.css.map">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/css/bootstrap-reboot.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/css/bootstrap-reboot.css.map">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/css/bootstrap-reboot.min.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/css/bootstrap-reboot.min.css.map">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/css/bootstrap.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/css/bootstrap.css.map">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/css/bootstrap.min.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/css/bootstrap.min.css.map">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/js/bootstrap.bundle.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/js/bootstrap.bundle.js.map">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/js/bootstrap.bundle.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/js/bootstrap.bundle.min.js.map">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/js/bootstrap.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/js/bootstrap.js.map">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/js/bootstrap.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap4/js/bootstrap.min.js.map">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/css/bootstrap-datepicker.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/css/bootstrap-datepicker.css.map">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/css/bootstrap-datepicker.min.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/css/bootstrap-datepicker.standalone.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/css/bootstrap-datepicker.standalone.css.map">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/css/bootstrap-datepicker.standalone.min.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/css/bootstrap-datepicker3.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/css/bootstrap-datepicker3.css.map">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/css/bootstrap-datepicker3.min.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/css/bootstrap-datepicker3.standalone.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/css/bootstrap-datepicker3.standalone.css.map">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/css/bootstrap-datepicker3.standalone.min.css">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/js/bootstrap-datepicker.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/js/bootstrap-datepicker.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker-en-CA.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.ar-tn.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.ar.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.az.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.bg.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.bm.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.bn.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.br.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.bs.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.ca.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.cs.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.cy.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.da.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.de.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.el.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.en-AU.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.en-CA.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.en-GB.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.en-IE.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.en-NZ.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.en-ZA.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.eo.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.es.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.et.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.eu.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.fa.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.fi.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.fo.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.fr-CH.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.fr.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.gl.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.he.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.hi.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.hr.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.hu.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.hy.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.id.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.is.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.it-CH.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.it.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.ja.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.ka.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.kh.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.kk.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.km.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.ko.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.kr.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.lt.min.js">
+      <publishTime>11/05/2021 19:31:55</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.lv.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.me.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.mk.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.mn.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.ms.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.nl-BE.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.nl.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.no.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.oc.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.pl.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.pt-BR.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.pt.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.ro.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.rs-latin.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.rs.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.ru.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.si.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.sk.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.sl.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.sq.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.sr-latin.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.sr.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.sv.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.sw.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.ta.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.tg.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.th.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.tk.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.tr.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.uk.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.uz-cyrl.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.uz-latn.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.vi.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.zh-CN.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Bootstrap_Date_Picker/locales/bootstrap-datepicker.zh-TW.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Breakdown/Chart_Breakdown.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Breakdown/Historical_Breakdown.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Breakdown/New_Breakdown.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Chart/js/Chart.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Datatable/css/bootstrap.css">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Datatable/css/bootstrap.min.css">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Datatable/css/dataTables.bootstrap4.min.css">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Datatable/css/jquery.dataTables.min.css">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Datatable/css/responsive.dataTables.min.css">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Datatable/js/dataTables.bootstrap4.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Datatable/js/dataTables.responsive.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Datatable/js/jquery-3.3.1.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Datatable/js/jquery.dataTables.min.js">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="HomePage_Developer/Home_Page.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="HomePage_Developer/Home_Page_All.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="HomePage_Developer/Me.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="InspectionCheck/SKIDP00.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="InspectionCheck/SKIDP01.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="InspectionCheck/SKIDP02.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="InspectionCheck/SKIDP04.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="InspectionCheck/SKIDP14.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="InspectionCheck/SKIDP29.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="InspectionCheck/SKIDP31.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="InspectionCheck/SKIDP32.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="InspectionCheck/SKIDP33.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="InspectionCheck/SKIDP34.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="InspectionCheck/Washing.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="InspectionCheck/WB1.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="InspectionCheck/WB2.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="InspectionCheck/WB3.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="InspectionCheck/WB4.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="InspectionCheck/WB5.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="README.md">
+      <publishTime>11/05/2021 21:07:44</publishTime>
+    </File>
+    <File Include="Resource/1263914.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/144-1440352_credit-history-location-icon-png-blue-clipart.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/84380.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/All.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/Back Baru.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/Back.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/Back1.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/Breakdown.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/Checklist.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/chimney-power-station-icon-vector-cartoon-chimney-power-plant-petrochemical-plant.jpg">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/cogwheels.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/cpu.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/cross.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/delete-1432400-1211078.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/edit-512.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/factory.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/icon-grafik-417x330.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/icon.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/icons8-add-96.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/icons8-checklist-64.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/icons8-edit-128.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/icons8-edit-256.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/icons8-home-150.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/logout.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/Loreal.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/magnifier.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/magnifying-glass %281%29.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/magnifying-glass.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/management-process-3-919283.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/multi-tab.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/order-history-icon-export-csv-blue-icon-11553511776dpkqdrksk8.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/padlock.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/Petrochemical-icon-yellow250x250.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/Picture1.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/PM.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/PM2.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/PM3.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/Polman.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/process-systems.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/process.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/refresh-button.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/user %281%29.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/user.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/Working-Schedule.png">
+      <publishTime>11/05/2021 19:31:56</publishTime>
+    </File>
+    <File Include="Resource/wrong-password.png">
+      <publishTime>11/05/2021 19:31:57</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/05/2021 21:08:50</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
